@@ -4,17 +4,30 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My Shop</title>
+        <link rel="stylesheet" href="index.css">
     </head>
     <body>
+
+        <nav>
+            <a href="/">Home</a>
+            <a href="#hairstyles">Hairstyles</a>
+            <a href="#pricing">Pricing</a>
+            <a href="#media">Media</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
 <!---Hero -->
-        <section>
+        <section class="hero">
             <h1>Welcome to Barber Shop</h1>
-            <img src="./logo3.png" alt="">
+            <img src="./logo3.png" >
+        </section>
+
+        <section class="sub-hero">
             <h2>Welcome to my Shop, great looks are my top priorities, we are here to make you look beautiful and handsome.</h2>
-                <img src="./barbershop.jpg" alt="">
+                <img src="./barbershop.jpg">
         </section>
 <!-- Hair styles -->
-        <section>
+        <section id="hairstyles">
             <h2>Hairstyles You need to try in 2024</h2>
             <ul>
                 <li>Low cut</li>
@@ -26,7 +39,7 @@
             </ul>
         </section>
 <!-- Pricing -->
-        <section>
+        <section id="pricing">
             <h2>Pricing</h2>
             <table border="1">
                 <thead>
@@ -62,26 +75,26 @@
         </section>
 
 <!--  Media-->
-        <section>
+        <section id="media">
             <h2>Have Fun while we make you beautiful</h2>
             <h4>Listen to nature</h4>
             <audio controls src="./Celine_Dion_-_Best_Of_All_CeeNaija.com_.mp3"></audio>
             <h4>Watch movie</h4>
-            <video controls src="./barbershop videos2.webm"></video>
+            <video controls src="./barbershop videos2.webm" width=500></video>
         </section>
 <!-- About -->
-        <section>
+        <section id="about">
             <h2>About us</h2>
-            <p>Welcome to Mary's Barbershop, your ultimate companion for all your grooming needs. Our app is designed to bring the finest barbershop experience to your fingertips, ensuring you always look and feel your best with convenience and ease.</p>
+            <p id="sub-about">Welcome to Mary's Barbershop, your ultimate companion for all your grooming needs. Our app is designed to bring the finest barbershop experience to your fingertips, ensuring you always look and feel your best with convenience and ease.</p>
             <h2>Mission</h2>
-            <p> Mary's Barbershop, our mission is to revolutionize the grooming industry by leveraging technology to offer seamless, top-notch services to our clients. We strive to provide an exceptional experience, from booking appointments to discovering the latest trends in haircuts and grooming.</p>
+            <p id="mission"> Mary's Barbershop, our mission is to revolutionize the grooming industry by leveraging technology to offer seamless, top-notch services to our clients. We strive to provide an exceptional experience, from booking appointments to discovering the latest trends in haircuts and grooming.</p>
             <h2>Our Commitment</h2>
-            <p>We are committed to excellence and customer satisfaction. Our team is dedicated to continuously improving our services and ensuring that every interaction with Mary's Barbershop leaves you feeling valued and appreciated. Your feedback is essential to us, and we are always here to listen and make your experience even better.
+            <p id="commitment">We are committed to excellence and customer satisfaction. Our team is dedicated to continuously improving our services and ensuring that every interaction with Mary's Barbershop leaves you feeling valued and appreciated. Your feedback is essential to us, and we are always here to listen and make your experience even better.
 
             </p>
         </section>
 <!-- Contact -->
-        <section>
+        <section id="contact">
             <h2>Contact us</h2>
             <h3>Don't wait another minute. We are one call away from you. Be Elegant, your beauty, your voice!!</h3>
 
@@ -90,16 +103,10 @@
             <form>
                 <label>Name</label>
                 <input>
-                <br>
-                <br>
                 <label for="">Adress</label>
                 <input>
-                <br>
-                <br>
                 <label for="">Other Details</label>
                 <textarea></textarea>
-                <br>
-                <br>
                 <button>Submit</button>
             </form>
             <h3>OR</h3>

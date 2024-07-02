@@ -1,0 +1,40 @@
+/* Screens above 1400px (starting from 1401) */
+body {
+    background: black;
+}
+/* For large screens such as Large Desktop */
+@media (max-width: 1400px) {
+    body{
+        background-color: blue;
+    }
+}
+section{
+    background-color: bisque;
+}
+/* large devices (desktop, less than 1200px */
+@media (max-width: 1200px) {
+    body {
+        background-color: goldenrod;
+    }
+}
+
+/* medium devices (tablets, less than 992px) */
+@media (max-width: 992px) {
+    body {
+        background-color: pink;
+    }
+}
+
+/* Small devices (landscape phone, less than 768px) */
+@media (max-width: 768px) {
+    body {
+        background-color: green;
+    }
+}
+
+/* x-small devices (portrait phones, less than 576px) */
+@media (max-width: 576px) {
+    body {
+        background-color: red;
+    }
+}
